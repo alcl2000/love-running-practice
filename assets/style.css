@@ -235,7 +235,7 @@ hr{
     }
 }
  /*for medium screen sizes 900px and down*/
- @media screen and(max-width:900px) {
+ @media only screen and(max-width:900px) {
     #menu{
         clear: left;
         float: left;
@@ -243,5 +243,22 @@ hr{
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
+    #cover-text{
+        left:0;
+        float: right;
+
+    }
+    #club-ethos{
+        width:90%;
+        height:1200px;
+        margin: 0 auto;
+    }
+    .left-about-heading , .right-about-heading {
+        width: inherit;
+    }
+    .left-about-heading  > h2, .right-about-heading > h2 {
+        text-align: center;
+        width: 100%;
+    }
  }
+ 
