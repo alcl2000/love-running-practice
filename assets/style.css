@@ -156,3 +156,46 @@ hr{
     border-radius: 50%;
 
  }
+ /* times*/
+
+ #times{
+    background-image: url(images/dublin-city.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+ }
+ #times div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 0px;
+    text-align: center;
+    border: 2px solid #fafafa;
+    box-sizing: border-box;
+ }
+ #times h2{
+    color:#fafafa
+ }
+ /* footer styling*/
+ footer{
+    height:150px;
+    width:100%;
+
+ }
+ footer ul{
+    text-align: center;
+    
+ }
+ footer li{
+    display: inline;
+    font-size: 260%;
+    color: #3a3a3a;
+ }
+ footer a{
+    text-decoration: none;
+    
+ }
