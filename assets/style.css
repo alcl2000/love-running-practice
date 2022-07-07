@@ -197,5 +197,17 @@ hr{
  }
  footer a{
     text-decoration: none;
-    
+    margin-right:5% ;
  }
+ /*gallery*/
+
+ #photos{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+ }
+ #photos > img{
+    width: 100%;
+ }
+ /*media query*/
